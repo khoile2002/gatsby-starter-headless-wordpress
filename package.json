@@ -1,0 +1,68 @@
+{
+  "name": "gatsby-starter-headless-wordpress",
+  "private": true,
+  "description": "A starter for a Headless WP site powered by Gatsby",
+  "version": "1.0.0",
+  "author": "Caleb Barnes <caleb.d.barnes@gmail.com>",
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.13",
+    "@chakra-ui/system": "^1.6.7",
+    "@theme-ui/color": "^0.9.1",
+    "@theme-ui/presets": "^0.9.1",
+    "@theme-ui/style-guide": "^0.9.1",
+    "dotenv": "^10.0.0",
+    "framer-motion": "^4.1.17",
+    "gatsby": "^3.3.0",
+    "gatsby-image": "^3.3.0",
+    "gatsby-plugin-image": "^1.6.0",
+    "gatsby-plugin-layout": "^2.6.0",
+    "gatsby-plugin-manifest": "^3.3.0",
+    "gatsby-plugin-offline": "^4.3.0",
+    "gatsby-plugin-react-helmet": "^4.6.0",
+    "gatsby-plugin-react-svg": "^3.0.1",
+    "gatsby-plugin-sharp": "^3.3.0",
+    "gatsby-plugin-theme-ui": "^0.9.1",
+    "gatsby-source-filesystem": "^3.3.0",
+    "gatsby-source-wordpress": "^5.10.0",
+    "gatsby-theme-headless-wordpress": "^0.1.1",
+    "gatsby-transformer-sharp": "^3.3.0",
+    "html-react-parser": "^1.1.1",
+    "lodash": "^4.17.20",
+    "postcss": "^8.2.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-headroom": "^3.1.1",
+    "react-helmet": "^6.1.0",
+    "theme-ui": "^0.9.0",
+    "typeface-merriweather": "1.1.13",
+    "typeface-montserrat": "1.1.13"
+  },
+  "devDependencies": {
+    "dumper.js": "^1.3.1",
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.22",
+    "prettier": "2.2.1",
+    "typescript": "^3.9.7"
+  },
+  "bugs": {
+    "url": "https://github.com/CalebBarnes/gatsby-theme-headless-wordpress/issues"
+  },
+  "homepage": "https://github.com/CalebBarnes/gatsby-starter-headless-wordpress#readme",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalebBarnes/gatsby-starter-headless-wordpress.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  }
+}
